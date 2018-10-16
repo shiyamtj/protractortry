@@ -9,5 +9,11 @@ exports.config = {
 		'browserName': 'chrome'
 //		'browserName': 'firefox'
 //		'browserName': 'internet explorer'
+	},
+	
+	onPrepare: function(){
+		browser.driver.manage().window().maximize();
 	}
+
+	
 };

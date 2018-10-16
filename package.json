@@ -1,0 +1,26 @@
+{
+	"name": "protractortry",
+	"version": "1.0.0",
+	"description": "ProtractorTry is created basically to use as a baseline project for test automation using protractor framework.",
+	"main": "angular_config.js",
+	"scripts": {
+		"server-update": "./node_modules/.bin/webdriver-manager update",
+		"server-start": "./node_modules/.bin/webdriver-manager start",
+		"verify": "./node_modules/.bin/protractor angular_config.js",
+		"start": "npm run server-update &&npm run server-start"
+	},
+	"dependencies": {
+		"protractor": "^5.4.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shiyamtj/protractortry.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/shiyamtj/protractortry/issues"
+	},
+	"homepage": "https://github.com/shiyamtj/protractortry#readme"
+}
